@@ -29,7 +29,7 @@ export default {
 <template>
   <div class="mt-10 sm:mt-20">
     <p
-      class="font-general-medium text-2xl sm:text-3xl text-primary-dark dark:text-primary-light"
+      class="font-general-medium text-2xl sm:text-3xl text-primary-dark dark:text-primary-light font-bold"
     >
       {{ skillsHeading }}
     </p>
