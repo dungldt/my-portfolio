@@ -6,7 +6,7 @@ Vue.js v3, Composition API and Tailwind CSS v3.
 -   Simple and responsive design
 -   [Vue.js v3](https://vuejs.org) with [Vue Router](https://router.vuejs.org)
 -   [Tailwind CSS v3](https://tailwindcss.com)
--   Theme Switcher with Dark Mode
+-   Theme Switcher with Dark Mode / Light mode
 -   Vue transitions
 -   Reusable Components
 -   Auto Counter Component
