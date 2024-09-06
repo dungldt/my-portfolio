@@ -10,7 +10,7 @@ export default {
 	},
 	data: () => {
 		return {
-			appTheme: localStorage.getItem('theme') || 'dark',
+			appTheme: localStorage.getItem('theme') || process.env.VUE_APP_DEFAULT_THEME,
 		};
 	},
 	mounted() {
