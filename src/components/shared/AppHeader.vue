@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       isOpen: false,
-      theme: "",
+      theme: process.env.VUE_APP_DEFAULT_THEME,
       modal: false,
       categories: [
         {
@@ -39,11 +39,11 @@ export default {
   },
 
   created() {
-    this.theme = localStorage.getItem("theme") || "light";
+    this.theme = localStorage.getItem("theme") || process.env.VUE_APP_DEFAULT_THEME;
   },
   mounted() {
     feather.replace();
-    this.theme = localStorage.getItem("theme") || "light";
+    this.theme = localStorage.getItem("theme") || process.env.VUE_APP_DEFAULT_THEME;
   },
   methods: {
     updateTheme(theme) {

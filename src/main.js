@@ -17,7 +17,7 @@ createApp(App)
     })
     .mount('#app');
 
-const appTheme = localStorage.getItem('theme') || 'dark';
+const appTheme = localStorage.getItem('theme') || process.env.VUE_APP_DEFAULT_THEME;
 
 // Check what is the active theme and change theme when user clicks on the theme button in header.
 if (
