@@ -10,7 +10,7 @@ export default {
 	},
 	data: () => {
 		return {
-			appTheme: localStorage.getItem('theme'),
+			appTheme: localStorage.getItem('theme') || 'dark',
 		};
 	},
 	mounted() {
