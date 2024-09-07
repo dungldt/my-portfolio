@@ -1,18 +1,18 @@
 <script>
-import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
+import ProjectsGrid from "../components/projects/ProjectsGrid.vue";
 
 export default {
-	name: 'Projects',
-	components: {
-		ProjectsGrid,
-	},
+  name: "Projects",
+  components: {
+    ProjectsGrid,
+  },
 };
 </script>
 
 <template>
-	<div class="container mx-auto">
-		<ProjectsGrid />
-	</div>
+  <div class="container mx-auto">
+    <ProjectsGrid />
+  </div>
 </template>
 
 <style scoped></style>
