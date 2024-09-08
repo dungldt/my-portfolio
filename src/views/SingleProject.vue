@@ -15,7 +15,7 @@ export default {
     return {
       singleProjectHeader: {
         singleProjectTitle: "Project Management UI",
-        singleProjectDate: "Jul 26, 2021",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
         singleProjectTag: "UI / Frontend",
       },
       projectImages: [
@@ -36,7 +36,7 @@ export default {
         },
       ],
       projectInfo: {
-        clientHeading: "About Client",
+        clientHeading: "About Company",
         companyInfos: [
           {
             id: 1,
@@ -45,23 +45,18 @@ export default {
           },
           {
             id: 2,
-            title: "Services",
-            details: "UI Design & Frontend Development",
+            title: "Address",
+            details: "Ho Chi Minh city",
           },
           {
             id: 3,
-            title: "Website",
-            details: "https://company.com",
-          },
-          {
-            id: 4,
-            title: "Phone",
-            details: "555 8888 888",
+            title: "REF",
+            details: "https://project-company1.com",
           },
         ],
         objectivesHeading: "Objective",
         objectivesDetails:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+          "Lorem ipsu objective content",
         technologies: [
           {
             title: "Tools & Technologies",
@@ -80,55 +75,17 @@ export default {
           {
             id: 1,
             details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+              "Lorem ips detail 1",
           },
           {
             id: 2,
             details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+              "Lorem ipsum detail 2",
           },
           {
             id: 3,
             details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-          },
-          {
-            id: 4,
-            details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-        ],
-        socialSharingsHeading: "Share This",
-        socialSharings: [
-          {
-            id: 1,
-            name: "Twitter",
-            icon: "twitter",
-            url: "https://twitter.com/realstoman",
-          },
-          {
-            id: 2,
-            name: "Instagram",
-            icon: "instagram",
-            url: "https://instagram.com/realstoman",
-          },
-          {
-            id: 3,
-            name: "Facebook",
-            icon: "facebook",
-            url: "https://facebook.com/",
-          },
-          {
-            id: 4,
-            name: "LinkedIn",
-            icon: "linkedin",
-            url: "https://linkedin.com/",
-          },
-          {
-            id: 5,
-            name: "Youtube",
-            icon: "youtube",
-            url: "https://www.youtube.com/c/StomanStudio",
+              "Lorem ipsum dolor detail 3",
           },
         ],
       },
