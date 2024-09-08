@@ -1,95 +1,37 @@
 <script>
+import { ref, computed, onMounted } from 'vue';
+import { useRouter, useRoute } from 'vue-router';
 import feather from "feather-icons";
 import ProjectHeader from "../components/projects/ProjectHeader.vue";
 import ProjectGallery from "../components/projects/ProjectGallery.vue";
 import ProjectInfo from "../components/projects/ProjectInfo.vue";
+import projectsData from "../data/projects";
 
 export default {
-  name: "Projects",
+  name: "Project",
+  setup() {
+    const projects = ref(projectsData);
+    const router = useRouter();
+    const route = useRoute();
+    const project = computed(() => {
+      return projects.value.find(p => p.id === parseInt(route.params.project_id));
+    });
+    const checkProject = () => {
+      if (!project.value) {
+        router.push({ name: 'Home' });
+      }
+    };
+    onMounted(() => {
+      checkProject();
+    });
+    return {
+      project
+    };
+  },
   components: {
     ProjectHeader,
     ProjectGallery,
     ProjectInfo,
-  },
-  data: () => {
-    return {
-      singleProjectHeader: {
-        singleProjectTitle: "Project Management UI",
-        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
-        singleProjectTag: "UI / Frontend",
-      },
-      projectImages: [
-        {
-          id: 1,
-          title: "Kabul Project Management UI",
-          img: require("@/assets/images/ui-project-1.jpg"),
-        },
-        {
-          id: 2,
-          title: "Kabul Project Management UI",
-          img: require("@/assets/images/web-project-2.jpg"),
-        },
-        {
-          id: 3,
-          title: "Kabul Project Management UI",
-          img: require("@/assets/images/mobile-project-2.jpg"),
-        },
-      ],
-      projectInfo: {
-        clientHeading: "About Company",
-        companyInfos: [
-          {
-            id: 1,
-            title: "Name",
-            details: "Company Ltd",
-          },
-          {
-            id: 2,
-            title: "Address",
-            details: "Ho Chi Minh city",
-          },
-          {
-            id: 3,
-            title: "REF",
-            details: "https://project-company1.com",
-          },
-        ],
-        objectivesHeading: "Objective",
-        objectivesDetails:
-          "Lorem ipsu objective content",
-        technologies: [
-          {
-            title: "Tools & Technologies",
-            techs: [
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "Vue.js",
-              "TailwindCSS",
-              "AdobeXD",
-            ],
-          },
-        ],
-        projectDetailsHeading: "Challenge",
-        projectDetails: [
-          {
-            id: 1,
-            details:
-              "Lorem ips detail 1",
-          },
-          {
-            id: 2,
-            details:
-              "Lorem ipsum detail 2",
-          },
-          {
-            id: 3,
-            details:
-              "Lorem ipsum dolor detail 3",
-          },
-        ],
-      },
-    };
   },
   mounted() {
     feather.replace();
@@ -102,15 +44,18 @@ export default {
 </script>
 
 <template>
-  <div class="container mx-auto mt-10 sm:mt-20">
+  <div class="container mx-auto mt-10 sm:mt-20" v-if="project">
     <!-- Project header -->
-    <ProjectHeader :singleProjectHeader="singleProjectHeader" />
+    <ProjectHeader :singleProjectHeader="project.detail.singleProjectHeader" />
 
     <!-- Project gallery -->
-    <ProjectGallery :projectImages="projectImages" />
+    <ProjectGallery :projectImages="project.detail.projectImages" />
 
     <!-- Project information -->
-    <ProjectInfo :projectInfo="projectInfo" />
+    <ProjectInfo :projectInfo="project.detail.projectInfo" />
+  </div>
+  <div v-else>
+    <p class="text-center font-general-medium text-lg text-primary-dark dark:text-primary-light">project not found.</p>
   </div>
 </template>
 
