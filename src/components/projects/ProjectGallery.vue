@@ -11,11 +11,12 @@ export default {
 			v-for="projectImage in projectImages"
 			:key="projectImage.id"
 		>
-			<img
+			<a target="_blank" :href="projectImage.img"><img
 				:src="projectImage.img"
 				class="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
 				alt="{{ projectImage.title }}"
 			/>
+			</a>
 		</div>
 	</div>
 </template>

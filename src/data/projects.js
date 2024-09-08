@@ -3,7 +3,7 @@
 
 const projectDetail = {
     singleProjectHeader: {
-        singleProjectTitle: "Project Management UI",
+        singleProjectTitle: "Urala - fortune telling app/web",
         singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
         singleProjectTag: "UI / Frontend",
     },
@@ -11,17 +11,17 @@ const projectDetail = {
         {
             id: 1,
             title: "Kabul Project Management UI",
-            img: require("@/assets/images/ui-project-1.jpg"),
+            img: require("@/assets/images/urala_01.png"),
         },
         {
             id: 2,
             title: "Kabul Project Management UI",
-            img: require("@/assets/images/web-project-2.jpg"),
+            img: require("@/assets/images/urala_02.png"),
         },
         {
             id: 3,
             title: "Kabul Project Management UI",
-            img: require("@/assets/images/mobile-project-2.jpg"),
+            img: require("@/assets/images/urala_03.png"),
         },
     ],
     projectInfo: {
@@ -40,22 +40,29 @@ const projectDetail = {
             {
                 id: 3,
                 title: "REF",
-                details: "https://project-company1.com",
+                details: "https://uranaiapp.jp",
             },
         ],
         objectivesHeading: "Objective",
         objectivesDetails:
-            "Lorem ipsu objective content",
+            "Urala - fortune telling app/web A fortune-telling app that allows you to enjoy various types of fortune telling, such as chat, telephone and email, safely and securely consult with over a thousand fortune tellers. Fortune tellers can provide consultation through both app or website freely.",
         technologies: [
             {
                 title: "Tools & Technologies",
                 techs: [
+                    "PHP",
+                    "Silex",
+                    "Symfony",
+                    "TWIG",
                     "HTML",
                     "CSS",
-                    "JavaScript",
-                    "Vue.js",
-                    "TailwindCSS",
-                    "AdobeXD",
+                    "Bootstrap",
+                    "Javascript",
+                    "jQuery",
+                    "Ajax",
+                    "MySQL",
+                    "AWS",
+                    "Jaspersoft",
                 ],
             },
         ],
@@ -82,9 +89,9 @@ const projectDetail = {
 const projects = [
     {
         id: 1,
-        title: 'Google Health Platform',
+        title: 'Urala - fortune telling app/web',
         category: 'Web Application',
-        img: require('@/assets/images/web-project-2.jpg'),
+        img: require('@/assets/images/urala_01.png'),
         detail: projectDetail
     },
     {
