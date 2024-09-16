@@ -32,15 +32,12 @@ export default {
           >
             <span>{{ info.title }}: </span>
             <a
-              href="#"
-              :class="
-                info.title == 'Website' || info.title == 'Phone'
-                  ? 'hover:underline cursor-pointer'
-                  : ''
-              "
-              aria-label="Project Website and Phone"
-              >{{ info.details }}</a
-            >
+              v-if="info.title == 'REF'"
+              target="_blank"
+              :href="info.details"
+              class="hover:underline cursor-pointer"
+            >{{ info.details }}</a>
+            <span v-else>{{ info.details }}</span>
           </li>
         </ul>
       </div>

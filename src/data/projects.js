@@ -1,7 +1,7 @@
 // Projects data.
 // Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
 
-const projectDetail = {
+const projectDetailUrala = {
     singleProjectHeader: {
         singleProjectTitle: "Urala - fortune telling app/web",
         singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
@@ -10,17 +10,14 @@ const projectDetail = {
     projectImages: [
         {
             id: 1,
-            title: "Kabul Project Management UI",
             img: require("@/assets/images/urala_01.png"),
         },
         {
             id: 2,
-            title: "Kabul Project Management UI",
             img: require("@/assets/images/urala_02.png"),
         },
         {
             id: 3,
-            title: "Kabul Project Management UI",
             img: require("@/assets/images/urala_03.png"),
         },
     ],
@@ -43,9 +40,6 @@ const projectDetail = {
                 details: "https://uranaiapp.jp",
             },
         ],
-        objectivesHeading: "Objective",
-        objectivesDetails:
-            "Urala - fortune telling app/web A fortune-telling app that allows you to enjoy various types of fortune telling, such as chat, telephone and email, safely and securely consult with over a thousand fortune tellers. Fortune tellers can provide consultation through both app or website freely.",
         technologies: [
             {
                 title: "Tools & Technologies",
@@ -66,22 +60,457 @@ const projectDetail = {
                 ],
             },
         ],
-        projectDetailsHeading: "Challenge",
+        projectDetailsHeading: "Project Info",
         projectDetails: [
             {
                 id: 1,
                 details:
-                    "Lorem ips detail 1",
+                    "Urala - fortune telling app/web A fortune-telling app that allows you to enjoy various types of fortune telling, such as chat, telephone and email, safely and securely consult with over a thousand fortune tellers. Fortune tellers can provide consultation through both app or website freely.",
+            },
+        ],
+    },
+};
+const projectDetailHamee = {
+    singleProjectHeader: {
+        singleProjectTitle: "Hamee-MF (Testing)",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
+        singleProjectTag: "UI / Frontend",
+    },
+    projectImages: [
+        {
+            id: 1,
+            img: require("@/assets/images/urala_01.png"),
+        },
+        {
+            id: 2,
+            img: require("@/assets/images/urala_02.png"),
+        },
+        {
+            id: 3,
+            img: require("@/assets/images/urala_03.png"),
+        },
+    ],
+    projectInfo: {
+        clientHeading: "About Company",
+        companyInfos: [
+            {
+                id: 1,
+                title: "Name",
+                details: "Company Ltd",
             },
             {
                 id: 2,
-                details:
-                    "Lorem ipsum detail 2",
+                title: "Address",
+                details: "Ho Chi Minh city",
             },
             {
                 id: 3,
+                title: "REF",
+                details: "https://next-engine.net/",
+            },
+        ],
+        technologies: [
+            {
+                title: "Tools & Technologies",
+                techs: [
+                    "PHP",
+                    "PHPUnit",
+                    "Codeception",
+                ],
+            },
+        ],
+        projectDetailsHeading: "Project Info",
+        projectDetails: [
+            {
+                id: 1,
                 details:
-                    "Lorem ipsum dolor detail 3",
+                    "Implement UnitTest and E2E Testing to Next Engine, an EC management system (Japan) which make EC mall operations easier, centralized management of orders for all stores, automation of order processing, and streamlining of shipping operations.",
+            },
+        ],
+    },
+};
+const projectDetailMYNGLE = {
+    singleProjectHeader: {
+        singleProjectTitle: "MYNGLE",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
+        singleProjectTag: "UI / Frontend",
+    },
+    projectImages: [
+        {
+            id: 1,
+            img: require("@/assets/images/urala_01.png"),
+        },
+        {
+            id: 2,
+            img: require("@/assets/images/urala_02.png"),
+        },
+        {
+            id: 3,
+            img: require("@/assets/images/urala_03.png"),
+        },
+    ],
+    projectInfo: {
+        clientHeading: "About Company",
+        companyInfos: [
+            {
+                id: 1,
+                title: "Name",
+                details: "Company Ltd",
+            },
+            {
+                id: 2,
+                title: "Address",
+                details: "Ho Chi Minh city",
+            },
+            {
+                id: 3,
+                title: "REF",
+                details: "https://www.myngle.com/",
+            },
+        ],
+        technologies: [
+            {
+                title: "Tools & Technologies",
+                techs: [
+                    "PHP",
+                    "Smarty",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "jQuery",
+                    "Ajax",
+                    "SCSS",
+                    "PHPUnit",
+                    "Codeception",
+                ],
+            },
+        ],
+        projectDetailsHeading: "Project Info",
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "An online language learning website which provides professional native teachers are chosen based on their experience, online teaching skills & qualifications, and flexible courses booking system to fit your busy schedule.",
+            },
+        ],
+    },
+};
+const projectDetailCONSOLE = {
+    singleProjectHeader: {
+        singleProjectTitle: "CONSOLE",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
+        singleProjectTag: "UI / Frontend",
+    },
+    projectImages: [
+        {
+            id: 1,
+            img: require("@/assets/images/urala_01.png"),
+        },
+        {
+            id: 2,
+            img: require("@/assets/images/urala_02.png"),
+        },
+        {
+            id: 3,
+            img: require("@/assets/images/urala_03.png"),
+        },
+    ],
+    projectInfo: {
+        clientHeading: "About Company",
+        companyInfos: [
+            {
+                id: 1,
+                title: "Name",
+                details: "Company Ltd",
+            },
+            {
+                id: 2,
+                title: "Address",
+                details: "Ho Chi Minh city",
+            },
+            {
+                id: 3,
+                title: "REF",
+                details: "https://www.zinio.com/sg",
+            },
+        ],
+        technologies: [
+            {
+                title: "Tools & Technologies",
+                techs: [
+                    "PHP",
+                    "MySQL",
+                    "eZ Publish",
+                    "Smarty",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "jQuery",
+                    "Ajax",
+                    "Bootstrap",
+                ],
+            },
+        ],
+        projectDetailsHeading: "Project Info",
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "A digital magazines reading platform covering a host of wide-ranging categories in over 30 languages. Save time by purchasing a digital magazine with instant delivery to your library, access our magazines across multiple devices and enjoy listening to your articles with text-to-speech feature.",
+            },
+        ],
+    },
+};
+const projectDetailWEBSHOP = {
+    singleProjectHeader: {
+        singleProjectTitle: "WEBSHOP",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
+        singleProjectTag: "UI / Frontend",
+    },
+    projectImages: [
+        {
+            id: 1,
+            img: require("@/assets/images/urala_01.png"),
+        },
+        {
+            id: 2,
+            img: require("@/assets/images/urala_02.png"),
+        },
+        {
+            id: 3,
+            img: require("@/assets/images/urala_03.png"),
+        },
+    ],
+    projectInfo: {
+        clientHeading: "About Company",
+        companyInfos: [
+            {
+                id: 1,
+                title: "Name",
+                details: "Company Ltd",
+            },
+            {
+                id: 2,
+                title: "Address",
+                details: "Ho Chi Minh city",
+            },
+            {
+                id: 3,
+                title: "REF",
+                details: "https://www.lazada.com/en/",
+            },
+        ],
+        technologies: [
+            {
+                title: "Tools & Technologies",
+                techs: [
+                    "PHP",
+                    "Zend",
+                    "MySQL",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "jQuery",
+                    "Ajax",
+                ],
+            },
+        ],
+        projectDetailsHeading: "Project Info",
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "An eCommerce platform with presence in six countries of South East Asia provides end-to-end logistics capabilities, connects consumers to brands, ensures secure and seamless transactions for digital payments and financial services.",
+            },
+        ],
+    },
+};
+const projectDetailDATION = {
+    singleProjectHeader: {
+        singleProjectTitle: "DATION",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
+        singleProjectTag: "UI / Frontend",
+    },
+    projectImages: [
+        {
+            id: 1,
+            img: require("@/assets/images/urala_01.png"),
+        },
+        {
+            id: 2,
+            img: require("@/assets/images/urala_02.png"),
+        },
+        {
+            id: 3,
+            img: require("@/assets/images/urala_03.png"),
+        },
+    ],
+    projectInfo: {
+        clientHeading: "About Company",
+        companyInfos: [
+            {
+                id: 1,
+                title: "Name",
+                details: "Company Ltd",
+            },
+            {
+                id: 2,
+                title: "Address",
+                details: "Ho Chi Minh city",
+            },
+            {
+                id: 3,
+                title: "REF",
+                details: "https://www.dation.nl/",
+            },
+        ],
+        technologies: [
+            {
+                title: "Tools & Technologies",
+                techs: [
+                    "PHP",
+                    "Smarty",
+                    "MySQL",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "jQuery",
+                    "Ajax",
+                ],
+            },
+        ],
+        projectDetailsHeading: "Project Info",
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "A driving school management system of Netherlands with clear agenda makes it easy to manage lessons, vehicles and availability and even schedule an exam. With apps for students and instructors, everyone is always up to date on lessons, payments and progress.",
+            },
+        ],
+    },
+};
+const projectDetailAUTOORDER = {
+    singleProjectHeader: {
+        singleProjectTitle: "AUTO-ORDER (database switching)",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
+        singleProjectTag: "UI / Frontend",
+    },
+    projectImages: [
+        {
+            id: 1,
+            img: require("@/assets/images/urala_01.png"),
+        },
+        {
+            id: 2,
+            img: require("@/assets/images/urala_02.png"),
+        },
+        {
+            id: 3,
+            img: require("@/assets/images/urala_03.png"),
+        },
+    ],
+    projectInfo: {
+        clientHeading: "About Company",
+        companyInfos: [
+            {
+                id: 1,
+                title: "Name",
+                details: "Company Ltd",
+            },
+            {
+                id: 2,
+                title: "Address",
+                details: "Ho Chi Minh city",
+            },
+            {
+                id: 3,
+                title: "REF",
+                details: "https://www.cosmospc.co.jp/",
+            },
+        ],
+        technologies: [
+            {
+                title: "Tools & Technologies",
+                techs: [
+                    "VB 6.0",
+                    "PL/SQL",
+                    "Batch",
+                    "SQLServer 2005",
+                    "Oracle 11g",
+                ],
+            },
+        ],
+        projectDetailsHeading: "Project Info",
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "AUTO-ORDER (database switching) A management system of Cosmos Pharmaceutical (Japan) which develops a business model of opening multiple mega drugstores targeting small trade areas. They aim for offering quality products at the lowest possible price to enrich the lives of local customers.",
+            },
+        ],
+    },
+};
+const projectDetailHYBRID = {
+    singleProjectHeader: {
+        singleProjectTitle: "HYBRID",
+        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
+        singleProjectTag: "UI / Frontend",
+    },
+    projectImages: [
+        {
+            id: 1,
+            img: require("@/assets/images/urala_01.png"),
+        },
+        {
+            id: 2,
+            img: require("@/assets/images/urala_02.png"),
+        },
+        {
+            id: 3,
+            img: require("@/assets/images/urala_03.png"),
+        },
+    ],
+    projectInfo: {
+        clientHeading: "About Company",
+        companyInfos: [
+            {
+                id: 1,
+                title: "Name",
+                details: "Company Ltd",
+            },
+            {
+                id: 2,
+                title: "Address",
+                details: "Ho Chi Minh city",
+            },
+            {
+                id: 3,
+                title: "REF",
+                details: "https://www.actnet.co.jp/",
+            },
+        ],
+        technologies: [
+            {
+                title: "Tools & Technologies",
+                techs: [
+                    "PHP",
+                    "Symfony",
+                    "Postgres",
+                    "Apache",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "jQuery",
+                    "Ajax",
+                ],
+            },
+        ],
+        projectDetailsHeading: "Project Info",
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "A management system (Japan) which provides contract development, consultation, portal site development/management and leasing in real estate industry.",
             },
         ],
     },
@@ -91,43 +520,57 @@ const projects = [
         id: 1,
         title: 'Urala - fortune telling app/web',
         category: 'Web Application',
-        img: require('@/assets/images/urala_01.png'),
-        detail: projectDetail
+        img: require('@/assets/images/urala_00.png'),
+        detail: projectDetailUrala
     },
     {
         id: 2,
-        title: 'Phoenix Digital Agency',
-        category: 'Mobile Application',
+        title: 'Hamee-MF (Testing)',
+        category: 'Web Application',
         img: require('@/assets/images/mobile-project-2.jpg'),
-        detail: projectDetail
+        detail: projectDetailHamee
     },
     {
         id: 3,
-        title: 'Project Management UI',
-        category: 'UI/UX Design',
+        title: 'MYNGLE',
+        category: 'Web Application',
         img: require('@/assets/images/ui-project-1.jpg'),
-        detail: projectDetail
+        detail: projectDetailMYNGLE
     },
     {
         id: 4,
-        title: 'Cloud Storage Platform',
-        category: 'UI/UX Design',
+        title: 'CONSOLE',
+        category: 'Web Application',
         img: require('@/assets/images/ui-project-2.jpg'),
-        detail: projectDetail
+        detail: projectDetailCONSOLE
     },
     {
         id: 5,
-        title: 'React Social App',
-        category: 'Mobile Application',
+        title: 'WEBSHOP',
+        category: 'Web Application',
         img: require('@/assets/images/mobile-project-1.jpg'),
-        detail: projectDetail
+        detail: projectDetailWEBSHOP
     },
     {
         id: 6,
-        title: 'Apple Design System',
+        title: 'DATION',
         category: 'Web Application',
         img: require('@/assets/images/web-project-1.jpg'),
-        detail: projectDetail
+        detail: projectDetailDATION
+    },
+    {
+        id: 7,
+        title: 'AUTO-ORDER (database switching)',
+        category: 'Web Application',
+        img: require('@/assets/images/web-project-1.jpg'),
+        detail: projectDetailAUTOORDER
+    },
+    {
+        id: 8,
+        title: 'HYBRID',
+        category: 'Web Application',
+        img: require('@/assets/images/web-project-1.jpg'),
+        detail: projectDetailHYBRID
     },
 ];
 
