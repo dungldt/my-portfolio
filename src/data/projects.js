@@ -4,8 +4,8 @@
 const projectDetailUrala = {
     singleProjectHeader: {
         singleProjectTitle: "Urala - fortune telling app/web",
-        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
-        singleProjectTag: "UI / Frontend",
+        singleProjectDate: "June 2021 - present",
+        singleProjectTag: "Full-stack developer",
     },
     projectImages: [
         {
@@ -27,12 +27,12 @@ const projectDetailUrala = {
             {
                 id: 1,
                 title: "Name",
-                details: "Company Ltd",
+                details: "Sharing-Innovations Vietnam Co., Ltd.",
             },
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -73,21 +73,21 @@ const projectDetailUrala = {
 const projectDetailHamee = {
     singleProjectHeader: {
         singleProjectTitle: "Hamee-MF (Testing)",
-        singleProjectDate: "Jul 26, 2021 - Jul 26, 2022",
-        singleProjectTag: "UI / Frontend",
+        singleProjectDate: "April 2017 - September 2020",
+        singleProjectTag: "Back-end developer and then Leader",
     },
     projectImages: [
         {
             id: 1,
-            img: require("@/assets/images/urala_01.png"),
+            img: require("@/assets/images/hamee_01.png"),
         },
         {
             id: 2,
-            img: require("@/assets/images/urala_02.png"),
+            img: require("@/assets/images/hamee_02.png"),
         },
         {
             id: 3,
-            img: require("@/assets/images/urala_03.png"),
+            img: require("@/assets/images/hamee_03.png"),
         },
     ],
     projectInfo: {
@@ -96,12 +96,12 @@ const projectDetailHamee = {
             {
                 id: 1,
                 title: "Name",
-                details: "Company Ltd",
+                details: "Mulodo Vietnam Co., Ltd.",
             },
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -160,7 +160,7 @@ const projectDetailMYNGLE = {
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -226,7 +226,7 @@ const projectDetailCONSOLE = {
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -292,7 +292,7 @@ const projectDetailWEBSHOP = {
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -356,7 +356,7 @@ const projectDetailDATION = {
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -420,7 +420,7 @@ const projectDetailAUTOORDER = {
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -481,7 +481,7 @@ const projectDetailHYBRID = {
             {
                 id: 2,
                 title: "Address",
-                details: "Ho Chi Minh city",
+                details: "Ho Chi Minh City, Vietnam",
             },
             {
                 id: 3,
@@ -527,7 +527,7 @@ const projects = [
         id: 2,
         title: 'Hamee-MF (Testing)',
         category: 'Web Application',
-        img: require('@/assets/images/mobile-project-2.jpg'),
+        img: require('@/assets/images/hamee_00.jpeg'),
         detail: projectDetailHamee
     },
     {
