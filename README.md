@@ -47,3 +47,8 @@ npm install
 ```
 npm run serve
 ```
+6. Build release version
+
+```
+npm run build
+```
